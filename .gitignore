@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.xlsx
+*.log
+.pytest_cache/
+.coverage
+.idea/
+build/
+dist/
+*.spec.bak

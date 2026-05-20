@@ -1,0 +1,21 @@
+﻿[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sztcmh-mri-kidney-metrics"
+version = "0.1.0"
+description = "Kidney MRI metric tooling"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy",
+  "pandas",
+  "nibabel",
+  "PyQt5",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
