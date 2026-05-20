@@ -1,6 +1,6 @@
 # sztcmh-mri-kidney-metrics
 
-深圳市中医院肾脏 MRI 指标测量工具，面向 NIfTI (`.nii` / `.nii.gz`) 影像、标签和 vMRE/sADC 工作流。
+sztcmh 肾脏 MRI 指标测量工具，面向 NIfTI (`.nii` / `.nii.gz`) 影像、标签和 vMRE/sADC 工作流。
 
 ## Versions
 
