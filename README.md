@@ -53,11 +53,3 @@ python main.py
 ```bash
 python -m unittest discover -s tests/unit -v
 ```
-
-## Real Data Validation
-
-本仓库已在真实目录 `D:/508Lab/深圳中医院/DWI` 上做过验证：
-
-- 新的批量 workflow 可以忽略目录中的杂项文件
-- 图像与标签现在按病例键配对，而不是只按数量和排序硬配对
-- `stiff200-800` 与 `label/kidney`、`label/kidney2` 都可以得到有效批量结果
